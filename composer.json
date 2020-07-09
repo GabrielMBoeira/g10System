@@ -1,0 +1,16 @@
+{
+    "name": "g10/composer-php",
+    "description": "Systema g10",
+    "authors": [
+        {
+            "name": "Gabriel Boeira",
+            "email": "gboeira777@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.3"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^4.3"
+    }
+}

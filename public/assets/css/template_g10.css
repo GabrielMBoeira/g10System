@@ -1,0 +1,142 @@
+* {
+    box-sizing: 0;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 200px 1fr;
+    grid-template-rows: 150px 1fr 30px;
+    grid-template-areas: 
+        'header header'
+        'aside main'
+        'aside footer';
+}
+ 
+header {
+    grid-area: header;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    box-shadow: 0px 0px 15px 0px rgba(44, 50, 50, 0.79);
+}
+
+.title {
+    padding: 5px 20px;
+    flex-grow: 1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: radial-gradient(circle, rgba(179,205,223,1) 46%, rgba(23,69,120,1) 100%);
+}
+
+.dropdown-item {
+    font-size: 0.9rem;
+    text-shadow: 0px 0px 0px rgba(150, 150, 150, 1);
+}
+
+.dropdown-item:hover {
+    background-color: #ddd;
+}
+
+.nav-icon-menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icofont-navigation-menu {
+    cursor: pointer;
+}
+
+aside {
+    grid-area: aside;
+    color: #fff;
+    background-color: rgb(87, 87, 85);
+    box-shadow: 0px 0px 15px 0px rgba(44, 50, 50, 0.79);
+}
+
+.div-colapse {
+    border-bottom: solid 1px rgb(171, 168, 172);
+}
+
+.button-colapse {
+    padding: 5px;
+    background-color: rgb(87, 87, 85);
+    cursor: pointer;
+}
+
+.show-colapse {
+    background-color: rgb(241, 235, 235);
+    color: #000;
+    cursor: pointer;
+}
+
+.body-show-colapse {
+    background-color: rgb(250, 249, 249);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30px;
+    color: #000;
+    cursor: pointer;
+}
+
+.body-show-colapse:hover {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30px;
+    background-color: rgb(214, 207, 207);
+    color: #000;
+    cursor: pointer;
+}
+
+aside a {
+    text-decoration: none;
+    color: #000;
+} 
+
+aside a:hover {
+    text-decoration: none;
+    color: #000;
+}
+
+main {
+    grid-area: main;
+    padding: 10px;
+}
+
+.content {
+    background-color: #fff;
+    height: 100%;
+    border-radius: 5px;
+    padding: 0px 15px 15px;
+    box-shadow: 1px 0px 3px 0px rgba(50, 50, 50, 0.75);
+  }
+  
+  .content-title-main {
+    height: 80px;
+    display: flex;
+    font-size: 1.6rem;
+    justify-content: center;
+    align-items: center;
+    font-weight: 400;
+    border-bottom: 1px solid #ddd;
+  }
+
+footer {
+    grid-area: footer;
+    background: radial-gradient(circle, rgba(179,205,223,1) 46%, rgba(23,69,120,1) 100%);
+}
+
+.text-footer {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-right: 30px;
+    color: #fff;
+}
+

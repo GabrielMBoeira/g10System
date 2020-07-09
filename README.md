@@ -1,2 +1,2 @@
-# g10system
-g10system (Warehouse management system)
+# g10
+G10 
