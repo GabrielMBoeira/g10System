@@ -34,7 +34,7 @@
                         <a><i class="icon icofont-navigation-menu"></i></a>
                     </div>
                     <li class="nav-item active">
-                        <a class="nav-link" href="template_g10.php">Home</a>
+                        <a class="nav-link" href="maintenance.php">Home</a>
                     </li>
                     <li class="nav-item dropdown active">
                         <a class="nav-link dropdown-toggle" id="navbarDropdown" role="button" data-toggle="dropdown">
@@ -48,8 +48,8 @@
                     </li>
                 </ul>
                 <form class="form-inline my-2 my-lg-0">
-                    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-                    <button class="btn btn-outline-primary my-2 my-sm-0" type="submit">Search</button>
+                    <input class="form-control mr-sm-2" type="search" placeholder="Pesquise..." aria-label="Search">
+                    <button class="btn btn-outline-primary my-2 my-sm-0" type="submit">Pesquisar</button>
                 </form>
             </div>
         </nav>

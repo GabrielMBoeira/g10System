@@ -63,7 +63,6 @@ if (isset($_POST['save-maintenance'])) {
                         <label for="requester-name">Nome do solicitante</label>
                         <input type="text" name="requester-name" id="requester-name" placeholder="Digite aqui..." class="form-control" required />
                         <div class="invalid-feedback">
-
                         </div>
                     </div>
                 </div>

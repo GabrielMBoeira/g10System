@@ -1,0 +1,43 @@
+.dashboard {
+    background: linear-gradient(90deg, rgba(255,149,118,1) 17%, rgba(245,141,70,0.8883928571428571) 100%);
+    padding: 10px;
+    font-size: 1.1rem;
+    font-weight: 400;
+    border: solid 1px #000;
+    
+}
+
+.content-boxes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.box {
+    margin: 10px;
+    border: solid 1px grey;
+    height: 200px;
+    width: 200px;
+}
+
+figure.background-box {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    box-sizing: border-box;
+    
+}
+
+figure.background-box img {
+    width: 100%;
+    height: auto;
+    box-sizing: border-box;
+}
+
+.content-center-box {
+    position: absolute;
+}
+
+

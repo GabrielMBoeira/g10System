@@ -127,6 +127,34 @@ main {
     border-bottom: 1px solid #ddd;
   }
 
+  .content-form {
+    padding: 50px 100px;
+    font-size: 1.0rem;
+  }
+
+  .btn-add-input {
+      border-radius: 50px;
+      width: 30px;
+      height: 30px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-size: 0.4rem;
+  }
+
+
+
+  .row-inputs {
+      display: flex;
+      align-items: center;
+  }
+
+  .btn-save {   
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+
 footer {
     grid-area: footer;
     background: radial-gradient(circle, rgba(179,205,223,1) 46%, rgba(23,69,120,1) 100%);

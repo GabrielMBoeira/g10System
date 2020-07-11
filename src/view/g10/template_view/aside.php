@@ -1,4 +1,4 @@
-<aside>
+<aside class="aside">
     <div class="accordion" id="accordionExample">
         <div class="div-colapse">
             <div class="button-colapse" id="div-1" data-toggle="collapse" data-target="#collapseEstoque" aria-expanded="true" aria-controls="collapseOne">
@@ -7,10 +7,10 @@
 
             <div id="collapseEstoque" class="show-colapse collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
                 <div class="body-show-colapse">
-                    <a href="../g10/invoice_entries.php">Reentregas</a>
+                    <a href="../g10/delivery_again.php">Cadastrar Reentregas</a>
                 </div>
                 <div class="body-show-colapse">
-                    <a href="../g10/invoice_entries.php">Caixas substituidas</a>
+                    <a href="../g10/replaced_boxes.php">Caixas substituidas</a>
                 </div>
             </div>
         </div>
