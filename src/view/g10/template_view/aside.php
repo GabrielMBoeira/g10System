@@ -7,7 +7,7 @@
 
             <div id="collapseEstoque" class="show-colapse collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
                 <div class="body-show-colapse">
-                    <a href="../g10/delivery_again.php">Cadastrar Reentregas</a>
+                    <a href="../g10/delivery_again.php">Reentregas</a>
                 </div>
                 <div class="body-show-colapse">
                     <a href="../g10/replaced_boxes.php">Caixas substituidas</a>

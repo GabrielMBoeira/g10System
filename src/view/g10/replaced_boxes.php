@@ -1,10 +1,6 @@
 <?php
 require_once('template_view/header.php');
 require_once('template_view/aside.php');
-
-
-
-
 ?>
 <link rel="stylesheet" href="../../assets/css/css_g10/replaced_boxes.css">
 <main>
