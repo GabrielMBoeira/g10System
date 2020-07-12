@@ -68,18 +68,22 @@ if (isset($_POST['save-delivery-again'])) {
             <div class="col div-content">
                 <div class="row">
                     <form class="form-inline">
-                        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-                        <button class="btn btn-outline-success" type="submit">Pesquisar</button>
+                        <input class="form-control mr-sm-2" type="search" placeholder="Digite a NF..." aria-label="Search">
+                        <button class="btn btn-outline-primary" type="submit">Pesquisar</button>
                     </form>
                 </div>
                 <div class="row mt-2">
                     <div class="form-group">
-                        <label for="">Data Inicial</label>
+                        <label>Data Inicial</label>
                         <input type="date" class="form-control">
                     </div>
                     <div class="form-group ml-2">
-                        <label for="">Data Final</label>
+                        <label>Data Final</label>
                         <input type="date" class="form-control">
+                    </div>
+                    <div class="form-group ml-2">
+                        <label>Placa</label>
+                        <input type="text" class="form-control" placeholder="Digite aqui...">
                     </div>
                 </div>
             </div>
