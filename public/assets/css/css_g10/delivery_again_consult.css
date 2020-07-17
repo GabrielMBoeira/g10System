@@ -13,11 +13,26 @@
     margin: 10px;
     border-radius: 10px;
     padding: 10px 15px;
-    background: rgb(242,246,248);
+    background-color: #fff;
 }
 
 .icon {
     font-size: 1.4rem;
+}
+
+.header-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-weight: bold;
+
+}
+
+.footer-item {
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.8rem;
+    font-weight: bold;
 }
 
 
