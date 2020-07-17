@@ -106,7 +106,7 @@ if (isset($_POST['save-delivery-again'])) {
                     </div>
                 </div>
                 <div class="form-row btn-save mt-3">
-                    <button class="btn btn-lg btn-primary mt-3" name="save-delivery-again">
+                    <button class="btn btn-primary mt-3" name="save-delivery-again">
                         Salvar
                     </button>
                 </div>

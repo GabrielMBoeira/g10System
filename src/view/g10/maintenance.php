@@ -92,7 +92,7 @@ if (isset($_POST['save-maintenance'])) {
                     <div class="invalid-feedback"></div>
                 </div>
                 <div class="form-row btn-save mt-3">
-                    <button class="btn btn-lg btn-primary mt-3" name="save-maintenance">
+                    <button class="btn btn-primary mt-3" name="save-maintenance">
                         Salvar
                     </button>
                 </div>

@@ -72,7 +72,7 @@ if (isset($_POST['save-register_boxes'])) {
                     </div>
                 </div>
                 <div class="form-row btn-save mt-3">
-                    <button class="btn btn-lg btn-primary mt-3" name="save-register_boxes">
+                    <button class="btn btn-primary mt-3" name="save-register_boxes">
                         Salvar
                     </button>
                 </div>
