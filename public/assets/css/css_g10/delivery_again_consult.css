@@ -1,0 +1,23 @@
+.div-content {
+    padding: 20px 10px 5px 10px;
+    border-radius: 10px;
+    color: #fff;
+    font-size: 1.0rem;
+    border: solid 2px #000;
+    background: linear-gradient(to bottom, #205ca0 0%,#7db9e8 100%);
+    /* background-color: rgb(240, 235, 235); */
+}
+
+.delivery-item {
+    border: solid 1px #000;
+    margin: 10px;
+    border-radius: 10px;
+    padding: 10px 15px;
+    background: rgb(242,246,248);
+}
+
+.icon {
+    font-size: 1.4rem;
+}
+
+

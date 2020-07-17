@@ -65,7 +65,7 @@ if (isset($_POST['save-delivery-again'])) {
         </div>
         <div class="content-form">
             <?= $msg[0] ?>
-            <form action="#" method="post">
+            <form action="delivery_again_register.php" method="post">
                 <div class="form-row mt-3">
                     <div class="form-group col-md-6">
                         <label for="current-manutention">Placa do veículo</label>

@@ -56,7 +56,7 @@ if (isset($_POST['save-delivery-again'])) {
 }
 
 ?>
-<link rel="stylesheet" href="../assets/css/css_g10/consult_delivery_again.css">
+<link rel="stylesheet" href="../assets/css/css_g10/delivery_again_consult.css">
 <main>
     <div class="content">
         <div class="content-title-main">
@@ -66,24 +66,64 @@ if (isset($_POST['save-delivery-again'])) {
         </div>
         <div class="container-fluid mt-2">
             <div class="col div-content">
-                <div class="row">
+                <div class="row ml-1">
                     <form class="form-inline">
                         <input class="form-control mr-sm-2" type="search" placeholder="Digite a NF..." aria-label="Search">
-                        <button class="btn btn-outline-primary" type="submit">Pesquisar</button>
+                        <button class="btn btn-dark" type="submit">Pesquisar</button>
                     </form>
                 </div>
                 <div class="row mt-2">
-                    <div class="form-group">
+                    <div class="form-group col-md-3">
                         <label>Data Inicial</label>
                         <input type="date" class="form-control">
                     </div>
-                    <div class="form-group ml-2">
+                    <div class="form-group ml-2 col-md-3">
                         <label>Data Final</label>
                         <input type="date" class="form-control">
                     </div>
-                    <div class="form-group ml-2">
+                    <div class="form-group ml-2 col-md-4">
                         <label>Placa</label>
                         <input type="text" class="form-control" placeholder="Digite aqui...">
+                    </div>
+                </div>
+            </div>
+            <div class="delivery">
+                <div class="delivery-item">
+                    <div class="header-item">
+                        <i class="icon icofont-truck-alt"></i>
+                        <span class="vehicle">Placa:MMC1234</span>
+                    </div>
+                    <div class="body-item">
+                        <span>Notas Fiscais: 2312132, 6546546, 654645, 6546465, 65464564</span>
+                        <div>Local de armazenagem: Localizado na rua 3 andar 4</div>
+                    </div>
+                    <div class="footer-item">
+                        <span>Motorista: Gabriel Machado Boeira</span>
+                        <span>Horário do registro: 12/04/2020 10:00:00</span>
+                    </div>
+                </div>
+                <div class="delivery-item">
+                    <i class="">X</i>
+                    <span>Placa:MMC1234</span>
+                    <div class="">
+                        <span>Notas Fiscais: 2312132, 6546546, 654645, 6546465, 65464564</span>
+                        <div>Local de armazenagem: Localizado na rua 3 andar 4</div>
+                    </div>
+                    <div>
+                        <span>Motorista: Gabriel Machado Boeira</span>
+                        <span>Horário do registro: 12/04/2020 10:00:00</span>
+                    </div>
+                </div>
+                <div class="delivery-item">
+                    <i class="">X</i>
+                    <span>Placa:MMC1234</span>
+                    <div class="">
+                        <span>Notas Fiscais: 2312132, 6546546, 654645, 6546465, 65464564</span>
+                        <div>Local de armazenagem: Localizado na rua 3 andar 4</div>
+                    </div>
+                    <div>
+                        <span>Motorista: Gabriel Machado Boeira</span>
+                        <span>Horário do registro: 12/04/2020 10:00:00</span>
                     </div>
                 </div>
             </div>

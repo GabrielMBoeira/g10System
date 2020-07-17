@@ -53,7 +53,7 @@ if (isset($_POST['save-register_boxes'])) {
             </div>
         </div>
         <div class="content-form">
-            <form action="register_replaced_boxes.php" method="post">
+            <form action="replaced_boxes_register.php" method="post">
                 <?= $msg[0]; ?>
                 <div class="form-row mt-3">
                     <div class="form-group col-md-4">
