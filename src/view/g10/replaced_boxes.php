@@ -14,10 +14,10 @@ require_once('template_view/aside.php');
             <span>Caixas pendentes para baixa: 5</span>
         </div>
         <div class="content-button">
-            <a class="btn-link " href="register_replaced_boxes.php">
+            <a class="btn-link " href="replaced_boxes_register.php">
                 <span>Adicionar etiqueta substituida</span>
             </a>
-            <a class="btn-link" href="register_replaced_boxes.php">
+            <a class="btn-link" href="#">
                 <span>Lista de etiquetas pendentes</span>
             </a>
         </div>
