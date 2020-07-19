@@ -14,7 +14,7 @@ require_once('template_view/aside.php');
             <a class="btn-link mt-5" href="delivery_again_register.php">
                 <span>Adicionar Reentrega</span>
             </a>
-            <a class="btn-link" href="#">
+            <a class="btn-link" href="delivery_again_pending.php">
                 <span>Lista de reentregas pendentes</span>
             </a>
             <a class="btn-link" href="delivery_again_consult.php">

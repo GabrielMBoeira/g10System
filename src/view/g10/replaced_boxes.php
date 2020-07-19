@@ -17,8 +17,11 @@ require_once('template_view/aside.php');
             <a class="btn-link " href="replaced_boxes_register.php">
                 <span>Adicionar etiqueta substituida</span>
             </a>
-            <a class="btn-link" href="#">
+            <a class="btn-link" href="replaced_boxes_pending.php">
                 <span>Lista de etiquetas pendentes</span>
+            </a>
+            <a class="btn-link" href="replaced_boxes_consult.php">
+                <span>Consultar etiquetas</span>
             </a>
         </div>
     </div>

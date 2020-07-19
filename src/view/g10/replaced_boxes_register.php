@@ -70,6 +70,17 @@ if (isset($_POST['save-register_boxes'])) {
                             <?= $erros['ticket'] ?>
                         </div>
                     </div>
+                    <div class="form-group col-md-3">
+                        <label>Placa</label>
+                        <input type="text" name="veichle" id="" placeholder="Digite aqui..." class="form-control <?= $erros['veichle'] ? 'is-invalid' : '' ?>" value="<?= $_POST['veichle'] ?? '' ?>" />
+                        <div class="invalid-feedback">
+                            <?= $erros['ticket'] ?>
+                        </div>
+                    </div>
+                    <div class="form-group col-md-12">
+                        <label>Observações</label>
+                        <textarea name="note" class="form-control" cols="30" rows="3"></textarea>
+                    </div>
                 </div>
                 <div class="form-row btn-save mt-3">
                     <button class="btn btn-primary mt-3" name="save-register_boxes">

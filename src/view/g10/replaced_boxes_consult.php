@@ -56,12 +56,12 @@ if (isset($_POST['save-delivery-again'])) {
 }
 
 ?>
-<link rel="stylesheet" href="../assets/css/css_g10/delivery_again_consult.css">
+<link rel="stylesheet" href="../assets/css/css_g10/replaced_boxes_consult.css">
 <main>
     <div class="content">
         <div class="content-title-main">
             <div class="title-main">
-                <i class="icon icofont-delivery-time mr-2"></i>Consultar Reentregas
+                <i class="icon icofont-box mr-2"></i>Consultar Etiquetas
             </div>
         </div>
         <div class="container-fluid mt-2">
@@ -82,7 +82,7 @@ if (isset($_POST['save-delivery-again'])) {
                         <input type="date" class="form-control">
                     </div>
                     <div class="form-group ml-2 col-md-4">
-                        <label>Placa</label>
+                        <label>Etiqueta</label>
                         <input type="text" class="form-control" placeholder="Digite aqui...">
                     </div>
                 </div>
@@ -91,8 +91,8 @@ if (isset($_POST['save-delivery-again'])) {
                 <div class="delivery-item">
                     <div class="header-item">
                         <div>
-                            <i class="icon icofont-truck m-2"></i>
-                            Placa:MMC1234
+                            <i class="icon icofont-box m-2"></i>
+                            Etiqueta: 1231564546897879465464
                         </div>
                         <div>
                             <a class="btn btn-primary btn-sm ml-2" href="#"><i class="icofont-ui-edit"></i></a>
@@ -100,39 +100,41 @@ if (isset($_POST['save-delivery-again'])) {
                         </div>
                     </div>
                     <div class="body-item">
-                        <span>Notas Fiscais: 2312132, 6546546, 654645, 6546465, 65464564</span>
-                        <div>Local de armazenagem: Localizado na rua 3 andar 4</div>
+                        <span>Item: 123456</span>
+                        <span class="ml-3">Placa: MMC1234</span>
+                        <div>Observação: Testando a observação do item</div>
                     </div>
                     <div class="footer-item">
-                        <span>Motorista: Gabriel Machado Boeira</span>
+                        <span>Usuario: Gabriel Machado Boeira</span>
                         <span>Horário do registro: 12/04/2020 10:00:00</span>
                     </div>
                 </div>
                 <div class="delivery-item">
                     <div class="header-item">
                         <div>
-                            <i class="icon icofont-truck m-2"></i>
-                            Placa:MMC1234
+                            <i class="icon icofont-box m-2"></i>
+                            Etiqueta: 1231564546897879465464
                         </div>
                         <div>
                             <a class="btn btn-primary btn-sm ml-2" href="#"><i class="icofont-ui-edit"></i></a>
                             <a class="btn btn-danger btn-sm ml-2" href="#"><i class="icofont-trash"></i></a>
                         </div>
-                    </div> 
+                    </div>
                     <div class="body-item">
-                        <span>Notas Fiscais: 2312132, 6546546, 654645, 6546465, 65464564</span>
-                        <div>Local de armazenagem: Localizado na rua 3 andar 4</div>
+                        <span>Item: 123456</span>
+                        <span class="ml-3">Placa: MMC1234</span>
+                        <div>Observação: Testando a observação do item</div>
                     </div>
                     <div class="footer-item">
-                        <span>Motorista: Gabriel Machado Boeira</span>
+                        <span>Usuario: Gabriel Machado Boeira</span>
                         <span>Horário do registro: 12/04/2020 10:00:00</span>
                     </div>
                 </div>
                 <div class="delivery-item">
                     <div class="header-item">
                         <div>
-                            <i class="icon icofont-truck m-2"></i>
-                            Placa:MMC1234
+                            <i class="icon icofont-box m-2"></i>
+                            Etiqueta: 1231564546897879465464
                         </div>
                         <div>
                             <a class="btn btn-primary btn-sm ml-2" href="#"><i class="icofont-ui-edit"></i></a>
@@ -140,19 +142,20 @@ if (isset($_POST['save-delivery-again'])) {
                         </div>
                     </div>
                     <div class="body-item">
-                        <span>Notas Fiscais: 2312132, 6546546, 654645, 6546465, 65464564</span>
-                        <div>Local de armazenagem: Localizado na rua 3 andar 4</div>
+                        <span>Item: 123456</span>
+                        <span class="ml-3">Placa: MMC1234</span>
+                        <div>Observação: Testando a observação do item</div>
                     </div>
                     <div class="footer-item">
-                        <span>Motorista: Gabriel Machado Boeira</span>
+                        <span>Usuario: Gabriel Machado Boeira</span>
                         <span>Horário do registro: 12/04/2020 10:00:00</span>
                     </div>
                 </div>
                 <div class="delivery-item">
                     <div class="header-item">
                         <div>
-                            <i class="icon icofont-truck m-2"></i>
-                            Placa:MMC1234
+                            <i class="icon icofont-box m-2"></i>
+                            Etiqueta: 1231564546897879465464
                         </div>
                         <div>
                             <a class="btn btn-primary btn-sm ml-2" href="#"><i class="icofont-ui-edit"></i></a>
@@ -160,15 +163,15 @@ if (isset($_POST['save-delivery-again'])) {
                         </div>
                     </div>
                     <div class="body-item">
-                        <span>Notas Fiscais: 2312132, 6546546, 654645, 6546465, 65464564</span>
-                        <div>Local de armazenagem: Localizado na rua 3 andar 4</div>
+                        <span>Item: 123456</span>
+                        <span class="ml-3">Placa: MMC1234</span>
+                        <div>Observação: Testando a observação do item</div>
                     </div>
                     <div class="footer-item">
-                        <span>Motorista: Gabriel Machado Boeira</span>
+                        <span>Usuario: Gabriel Machado Boeira</span>
                         <span>Horário do registro: 12/04/2020 10:00:00</span>
                     </div>
                 </div>
-                
             </div>
         </div>
     </div>

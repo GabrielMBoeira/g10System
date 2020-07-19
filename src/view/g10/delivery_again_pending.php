@@ -56,37 +56,15 @@ if (isset($_POST['save-delivery-again'])) {
 }
 
 ?>
-<link rel="stylesheet" href="../assets/css/css_g10/delivery_again_consult.css">
+<link rel="stylesheet" href="../assets/css/css_g10/delivery_again_pending.css">
 <main>
     <div class="content">
         <div class="content-title-main">
             <div class="title-main">
-                <i class="icon icofont-delivery-time mr-2"></i>Consultar Reentregas
+                <i class="icon icofont-delivery-time mr-2"></i>Lista de reentregas pendentes
             </div>
         </div>
         <div class="container-fluid mt-2">
-            <div class="col div-content">
-                <div class="row ml-1">
-                    <form class="form-inline">
-                        <input class="form-control mr-sm-2" type="search" placeholder="Digite a NF..." aria-label="Search">
-                        <button class="btn btn-primary" type="submit">Pesquisar</button>
-                    </form>
-                </div>
-                <div class="row mt-2">
-                    <div class="form-group col-md-3">
-                        <label>Data Inicial</label>
-                        <input type="date" class="form-control">
-                    </div>
-                    <div class="form-group ml-2 col-md-3">
-                        <label>Data Final</label>
-                        <input type="date" class="form-control">
-                    </div>
-                    <div class="form-group ml-2 col-md-4">
-                        <label>Placa</label>
-                        <input type="text" class="form-control" placeholder="Digite aqui...">
-                    </div>
-                </div>
-            </div>
             <div class="delivery">
                 <div class="delivery-item">
                     <div class="header-item">
